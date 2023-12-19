@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+/* navbar style*/
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  background: #333;
+  
+}
+
+
+header .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.navbar .logo {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-weight: 600;
+  font-size: 2.1rem;
+  text-decoration: none;
+}
+
+
+.navbar .menu-links {
+  display: flex;
+  list-style: none;
+  gap: 35px;
+}
+
+.navbar a {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+
+.navbar a:hover {
+  color: #575351;
+}
+
+
+.mid-section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center ;
+  padding: 0 20px;
+  background-color: #494D5F;
+}
+
+.mid-section .content {
+  max-width: 1200px;
+  width: 100%;
+  color: black;
+  text-align: center;
+  margin-top: 250px;
+}
+
+.mid-section .content h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 3rem;
+ 
+  
+}
+
+.mid-section .content p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+ 
+ 
+}
+/* search box styling*/
+.search-box {
+  text-align: center;
+  margin: 30px auto;
+}
+.search-box form {
+  display: flex;
+  flex-direction: row; 
+  align-items: center;
+  
+}
+
+
+input {
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 20px; 
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 550%; 
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  padding: 13px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 110%; 
+  box-sizing: border-box;
+  
+}
+
+button:hover {
+  color:black;
+  background-color: #f1f1da;
+}
+/*fotter style */
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
