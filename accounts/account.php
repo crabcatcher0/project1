@@ -149,9 +149,16 @@ $fetchBookedHostelsQuery->close();
         </tr>
     <?php endforeach; ?>
 </table>
+<br>
+
+       <a href="../hostel/hostel.php">
+            <button>Add Hostels</button>
+       </a>
         <form action="logout.php" method="post">
             <button type="submit">Logout</button>
         </form>
+        
+        
     </div>
 
    

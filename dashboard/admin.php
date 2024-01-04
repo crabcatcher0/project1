@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="dashboard.css">
 </head>
 <body>
+    <div style="text-align: center;">
+        <h1>Welcome To Dashboard</h1>
+    </div>
     <div class="container">
     <?php
     // database connection calling the function connectToDatabase
@@ -102,7 +105,7 @@
             <input type="text" placeholder="Enter hostel type (e.g., girls/boys)" name="type" class="box" required>
             <input type="number" placeholder="Available beds in one room" name="num_beds" class="box" required>
             <input type="number" placeholder="Number of students in one room" name="num_students" class="box" required>
-            <input type="file" accept="image/png, image/jpg, image/jpeg" name="image" class="box" required>
+            <input type="file"  accept="image/png, image/jpg, image/jpeg" name="image" class="box" required>
             <input type="submit" class="btn" name="addhostel" value="Add hostel">
         </form>
     </div>

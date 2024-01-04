@@ -15,7 +15,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             // The email exists in the database
             // You can now proceed with sending a reset link or redirect to a password reset page
             // For now, let's redirect to reset_password.php
-            header("Location: reset_password.php");
+            header("Location: password_login.php");
             exit();
         } else {
             // If the email doesn't exist, show an error message

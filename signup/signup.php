@@ -6,7 +6,9 @@
     <title>Signup</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    
     <div class="container">
         <h4>Please Register.</h4>
         <?php
@@ -91,7 +93,10 @@
             </div>
         </form>
         <p>Already have an account? <a href="login.php">Login</a></p>
-        <button onclick="window.location.href = '../index.php';">Go Back</button>
+        <a href="../index.php">
+            <button>Go Back</button>
+       </a>
+
     </div>
 </body>
 </html>
