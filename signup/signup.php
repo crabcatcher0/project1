@@ -71,7 +71,7 @@
         ?>        
        <form action="signup.php" method="post">
             <div class="form-group">
-                <input type="text" name="fullname" placeholder="Name" required>
+                <input type="text" name="fullname" placeholder="First Name" required>
             </div>
             <div class="form-group">
                 <input type="text" name="lastname" placeholder="Last Name" required>

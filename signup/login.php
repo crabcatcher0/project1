@@ -15,10 +15,10 @@
         //for error checking also displays the message like einvalid email or password
         if (isset($_GET['message'])) {
             $message = urldecode($_GET['message']); //get message from login_process.php
-            echo "<p>$message</p>";
+            echo "<p style='color: red;'>$message</p>";
         }?>
         <?php 
-            if (isset($_GET['success'])) {   //from password recovery to display the message
+            if (isset($_GET['success'])) {   
                 $successMessage = urldecode($_GET['success']);
                 echo "<p class='success-message'>$successMessage</p>";
             }

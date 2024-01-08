@@ -14,7 +14,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $dbPassword = $row['password'];
  
     if ($existingEmail == $email && password_verify($password, $dbPassword)) {
-        // password is correct checks email and password with function password_verify
         $_SESSION["email"] = $existingEmail;
 
         // redirect to the account page

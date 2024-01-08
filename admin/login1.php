@@ -54,15 +54,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <?php endif; ?>
 
     <?php if ($adminExists) : //message display?>
-        <p>Admin account already exists. Please login.</p>
+        <p>Admin account already exists cannot register. Please login.</p>
     <?php endif; ?>
 
     <form method="post" action="">
         <label for="email">Email:</label>
-        <input type="email" name="email" required><br>
+        <input type="email" name="email" placeholder="example@gmail.com" required><br>
 
         <label for="password">Password:</label>
-        <input type="password" name="password" required><br>
+        <input type="password" name="password" placeholder="password" required><br>
 
         <input type="submit" value="Login">
         

@@ -63,7 +63,9 @@ if ($result) {
     <?php if (isset($error_message)) : ?>
         <p><?php echo $error_message; ?></p>
     <?php else : ?>
-        <form method="post" action="">
+        <form method="post">
+            <h1>Admin Registration</h1>
+            
             <label for="name">Name:</label>
             <input type="text" name="name" required><br>
 

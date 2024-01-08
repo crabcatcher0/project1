@@ -78,7 +78,7 @@ $fetchBookedHostelsQuery->close();
         </nav>
     </header>
     <div class="account-info">
-        <h2>Account Information</h2>
+        <h2>My Dashboard</h2>
         <p>Email: <?php echo $userInfo['email']; ?></p> 
         <p>Welcome, <?php echo $userInfo['name']; ?></p>
         <h3>Booked Hostels</h3>
